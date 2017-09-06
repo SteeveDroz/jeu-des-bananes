@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffe135;
+    color: darkslategray;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 768px;
+    min-height: 100vh;
+}
+
+article {
+    flex-grow: 1;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background: darkslategray;
+    color: #ffe135;
+    padding: 30px 20px 100px;
+    text-align: center;
+}
