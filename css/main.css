@@ -20,6 +20,35 @@ h1 {
     text-align: center;
 }
 
+table {
+    border: 2px solid darkslategray;
+    border-collapse: collapse;
+    margin:auto;
+}
+
+
+tbody tr:nth-child(2n) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+tbody tr:nth-child(2n+1) {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid darkslategray;
+    text-align: center;
+    padding: 5px;
+}
+
+thead td {
+    font-weight: bold;
+}
+
 footer {
     background: darkslategray;
     color: #ffe135;
