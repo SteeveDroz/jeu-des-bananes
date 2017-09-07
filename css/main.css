@@ -31,6 +31,7 @@ header {
 menu {
     background: darkslategray;
     margin: 0;
+    padding: 0;
     width: inherit;
     position: fixed;
     display: flex;
