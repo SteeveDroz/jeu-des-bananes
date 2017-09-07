@@ -8,8 +8,39 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    max-width: 768px;
+    width: 768px;
     min-height: 100vh;
+}
+
+header {
+    width: inherit;
+    height:100px;
+}
+
+menu {
+    background: darkslategray;
+    margin: 0;
+    width: inherit;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+menu a {
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffe135;
+    font-variant: small-caps;
+    transition: 2s;
+    border-radius: 10px 10px 0 0;
+}
+
+menu a:hover {
+    background: #ffe135;
+    color: darkslategray;
+    transition: 0.3s;
 }
 
 article {
@@ -23,9 +54,8 @@ h1 {
 table {
     border: 2px solid darkslategray;
     border-collapse: collapse;
-    margin:auto;
+    margin: auto;
 }
-
 
 tbody tr:nth-child(2n) {
     background: rgba(255, 255, 255, 0.2);
