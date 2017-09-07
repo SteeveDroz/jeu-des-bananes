@@ -96,6 +96,11 @@ footer {
     text-align: center;
 }
 
+dt {
+    margin-top: 50px;
+    font-weight: bold;
+}
+
 @media print {
     body {
         display: block;
