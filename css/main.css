@@ -8,7 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width: 768px;
+    width:1000px;
     min-height: 100vh;
 }
 
@@ -73,6 +73,15 @@ td {
     border: 1px solid darkslategray;
     text-align: center;
     padding: 5px;
+}
+
+table.comptes td{
+    min-width: 200px;
+    line-height: 50px;
+}
+
+td.disabled {
+    background: darkslategray;
 }
 
 thead td {

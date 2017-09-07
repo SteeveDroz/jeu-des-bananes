@@ -4,11 +4,74 @@
 <head>
     <meta charset="utf-8">
     <title>Cultivateur – Jeu des bananes</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/compte.js" defer></script>
 </head>
 
 <body>
     <article>
         <h1>Cultivateur</h1>
+        <section>
+            <h2>Règles spécifiques</h2>
+            <ul>
+                <li>La première année, vous ne pouvez produire que 10 tonnes de bananes au maximum. Les années suivantes, il n'y a pas de limite.</li>
+                <li>La production est de 1 tonne par banane dessinée.</li>
+                <li>Les frais de culture sont de 10 Sous par tonne produite, payable à la fin de l'année.</li>
+                <li>Votre famille a besoin de 200 Sous par an pour vivre, vous devez vous assurer cette somme.</li>
+                <li>Vous avez 6 enfants que vous pouvez mettre à l'école pour 30 Sous chancun par année.</li>
+                <li>Le propriétaire vous verse un salaire annuel, à vous de discuter avec lui de la forme qu'il prend. Il peut s'agir d'un montant fixe, d'un montant proportionnel à votre production, aux ventes du propriétaire, etc. Ce salaire peut être renégocier aussi souvent que nécessaire.</li>
+            </ul>
+        </section>
+
+        <h2>Feuille de comptes</h2>
+        <section>
+            <table class="comptes">
+                <tbody>
+                    <tr>
+                        <td class="annee" colspan="3">Année %annee</td>
+                    </tr>
+                    <tr>
+                        <td>Nombre de bananes produites</td>
+                        <td colspan="2">
+                    </tr>
+                    <tr>
+                        <td>Libellé</td>
+                        <td>Revenus</td>
+                        <td>Dépenses</td>
+                    </tr>
+                    <tr>
+                        <td>Frais de culture (10 par banane)</td>
+                        <td class="disabled"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Salaire</td>
+                        <td></td>
+                        <td class="disabled"></td>
+                    </tr>
+                    <tr>
+                        <td>Minimum vital</td>
+                        <td class="disabled"></td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                        <td>Frais scolaires (30 par enfant)</td>
+                        <td class="disabled"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Total</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </article>
 </body>
 
