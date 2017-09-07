@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Commerçant – Jeu des bananes</title>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js" defer></script>
+    <script src="js/compte.js" defer></script>
+</head>
+
+<body>
+    <article>
+        <h1>Commerçant</h1>
+        <section>
+            <h2>Règles spécifiques</h2>
+            <ul>
+                <li>Au début du jeu, vous inventez un slogan pour vendre vos bananes.</li>
+                <li>Vous achetez des bananes aux importateurs et les revendez aux meneurs de jeu (clients).</li>
+                <li>Les meneurs de jeu vous indiqueront tout au long du jeu le prix de vente de la tonne de bananes.</li>
+                <li>Les frais de stockage sont de 15 Sous par tonne achetée, payable à la fin de l'année.</li>
+                <li>Vous avez besoin de 1500 Sous par an pour vivre, vous devez vous assurer cette somme.</li>
+                <li>Vous avez un capital de départ de 2000 Sous.</li>
+            </ul>
+        </section>
+
+        <h2>Feuille de comptes</h2>
+        <section>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Montant initial</td>
+                    </tr>
+                    <tr>
+                        <td>2000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="comptes">
+                <tbody>
+                    <tr>
+                        <td class="annee" colspan="3">Année %annee</td>
+                    </tr>
+                    <tr>
+                        <td>Nombre de bananes achetées</td>
+                        <td colspan="2">
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Revenus</td>
+                        <td>Dépenses</td>
+                    </tr>
+                    <tr>
+                        <td>Frais de stockage (15 par banane)</td>
+                        <td class="disabled"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Achat de … bananes à ……… Sous</td>
+                        <td class="disabled"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Achat de … bananes à ……… Sous</td>
+                        <td class="disabled"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Achat de … bananes à ……… Sous</td>
+                        <td class="disabled"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Vente de … bananes à ……… Sous</td>
+                        <td></td>
+                        <td class="disabled"></td>
+                    </tr>
+                    <tr>
+                        <td>Vente de … bananes à ……… Sous</td>
+                        <td></td>
+                        <td class="disabled"></td>
+                    </tr>
+                    <tr>
+                        <td>Vente de … bananes à ……… Sous</td>
+                        <td></td>
+                        <td class="disabled"></td>
+                    </tr>
+                    <tr>
+                        <td>Minimum vital</td>
+                        <td class="disabled"></td>
+                        <td>1500</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Total</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&nbsp;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </article>
+</body>
+
+</html>

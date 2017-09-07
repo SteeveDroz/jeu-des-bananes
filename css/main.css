@@ -8,13 +8,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    width:1000px;
+    width: 1000px;
     min-height: 100vh;
 }
 
 header {
     width: inherit;
-    height:100px;
+    height: 100px;
 }
 
 menu {
@@ -75,7 +75,7 @@ td {
     padding: 5px;
 }
 
-table.comptes td{
+table.comptes td {
     min-width: 200px;
     line-height: 50px;
 }
@@ -91,6 +91,45 @@ thead td {
 footer {
     background: darkslategray;
     color: #ffe135;
+    margin-top: 30px;
     padding: 30px 20px 100px;
     text-align: center;
+}
+
+@media print {
+    body {
+        display: block;
+        font-size: 11pt;
+        color: black;
+    }
+
+    header {
+        display: none;
+        margin: 0;
+    }
+
+    footer {
+        color: black;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2 {
+        margin-top: 0;
+    }
+    section {
+        column-count: 2;
+    }
+    table.comptes {
+        border: 1px solid black;
+    }
+    table.comptes td {
+        line-height: normal;
+        border: 1px solid black;
+        width: auto;
+        min-width: 0;
+    }
+    table.comptes td.disabled::before {
+        content: '---';
+    }
 }
