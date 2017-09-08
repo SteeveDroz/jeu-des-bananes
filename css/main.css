@@ -3,8 +3,8 @@
 }
 
 body {
-    background: #ffe135;
-    color: darkslategray;
+    background: darkslategray;
+    color: #ffe135;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -13,23 +13,13 @@ body {
     text-align: justify;
 }
 
-a {
-    color: darkslategray;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 header {
     width: inherit;
     height: 100px;
 }
 
 menu {
-    background: darkslategray;
+    background: #ffe135;
     margin: 0;
     padding: 0;
     width: inherit;
@@ -44,15 +34,15 @@ menu a {
     font-weight: bold;
     text-decoration: none;
     padding: 20px;
-    color: #ffe135;
+    color: darkslategray;
     font-variant: small-caps;
     transition: 2s;
     border-radius: 10px 10px 0 0;
 }
 
 menu a:hover {
-    background: #ffe135;
-    color: darkslategray;
+    background: darkslategray;
+    color: #ffe135;
     transition: 0.3s;
 }
 
@@ -62,10 +52,11 @@ article {
 
 h1 {
     text-align: center;
+    font-size: 2rem;
 }
 
 table {
-    border: 2px solid darkslategray;
+    border: 2px solid #ffe135;
     border-collapse: collapse;
     margin: auto;
 }
@@ -94,7 +85,7 @@ table.comptes td {
 }
 
 td.disabled {
-    background: darkslategray;
+    background: url('../image/fond.svg');
 }
 
 thead td {
@@ -102,8 +93,8 @@ thead td {
 }
 
 footer {
-    background: darkslategray;
-    color: #ffe135;
+    background: #ffe135;
+    color: darkslategray;
     margin-top: 30px;
     padding: 30px 20px 100px;
     text-align: center;
