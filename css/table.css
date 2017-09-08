@@ -1,0 +1,36 @@
+table {
+    border: 2px solid #ffe135;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+tbody tr:nth-child(2n) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+tbody tr:nth-child(2n+1) {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid darkslategray;
+    text-align: center;
+    padding: 5px;
+}
+
+table.comptes td {
+    min-width: 200px;
+    line-height: 50px;
+}
+
+td.disabled {
+    background: url('../image/fond.svg');
+}
+
+thead td {
+    font-weight: bold;
+}
