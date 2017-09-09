@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="-5 -5 140 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <g id="banana">
+            <path d="M 103,17 C 119,20 144,97 104,123 C 75,140 7,101 1,97 L 4,87 L 8,93 C 8,93 59,106 85,90 C 114,71 98,22 98,22 L 89,4 C 91,5 96,4 96,2 Z" fill="#ffe135"/>
+            <path d="M 103,17 C 109,26 126,81 92,104 C 72,117 13,100 7,96 L 8,93 C 8,93 59,106 85,90 C 114,71 98,22 98,22 Z" fill="#ffff35"/>
+            <path d="M 103,17 L 98,22 L 89,4 C 91,5 96,4 96,2 Z" fill="#2f4f4f"/>
+            <path d="M 1,97 L 4,87 L 8,93 Z" fill="#2f4f4f"/>
+        </g>
+        <filter id="around">
+            <feMorphology in="SourceAlpha" operator="dilate" radius="2"/>
+            <feGaussianBlur  stdDeviation="2" />
+            <feMerge>
+                <feMergeNode />
+                <feMergeNode in="SourceGraphic" />
+            </feMerge>
+        </filter>
+    </defs>
+    <use href="#banana" filter="url(#around)"/>
+</svg>
