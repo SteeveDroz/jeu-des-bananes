@@ -4,6 +4,7 @@
 
 body {
     font-family: 'Josefin sans';
+    font-size: 16pt;
     background: darkslategray;
     color: #ffe135;
     display: flex;
@@ -33,6 +34,7 @@ menu {
 
 menu a {
     margin-top: 20px;
+    font-size: 12pt;
     font-weight: bold;
     text-decoration: none;
     padding: 10px;
