@@ -14,9 +14,14 @@
 
 <body>
     <article>
-        <h1 class="no-print">Billets</h1>
+        <h1 class="no-print">Planche à billets</h1>
         <section class="no-print">
-            <input id="valeur-billets" type="number" placeholder="Valeur">Sou(s) <button id="generer-billets">Générer</button>
+            <p>
+                Utilisez les commandes ci-dessous pour générer une planche à billets imprimable de la valeur souhaitée.
+            </p>
+            <p>
+                <input id="valeur-billets" type="number" min="1" value="10" placeholder="Valeur">Sou(s) <button id="generer-billets">Générer</button>
+            </p>
         </section>
         <section>
             <div class="billet" id="modele-billet">
