@@ -3,6 +3,7 @@
 }
 
 body {
+    font-family: 'Josefin sans';
     background: darkslategray;
     color: #ffe135;
     display: flex;
@@ -16,6 +17,7 @@ body {
 header {
     width: inherit;
     height: 100px;
+    z-index: 1;
 }
 
 menu {
@@ -33,7 +35,7 @@ menu a {
     margin-top: 20px;
     font-weight: bold;
     text-decoration: none;
-    padding: 20px;
+    padding: 10px;
     color: darkslategray;
     font-variant: small-caps;
     transition: 2s;

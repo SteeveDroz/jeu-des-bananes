@@ -1,0 +1,29 @@
+.billet {
+    background: white;
+    display: inline-block;
+    width: 500px;
+    height: 290px;
+    position: relative;
+    border: 1px solid black;
+}
+
+.billet img {
+    width: 200px;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.billet span {
+    color: black;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    font-size: 20pt;
+}
+
+#modele-billet {
+    display: none;
+}

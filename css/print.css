@@ -37,3 +37,7 @@ table.comptes td {
 table.comptes td.disabled::before {
     content: '---';
 }
+
+.no-print {
+    display: none;
+}

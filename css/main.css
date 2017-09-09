@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 @import "page.css";
 @import "titre.css";
 @import "table.css";
 @import "liste.css";
+@import "billet.css";
