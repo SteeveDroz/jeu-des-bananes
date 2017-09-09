@@ -27,3 +27,10 @@
 #modele-billet {
     display: none;
 }
+
+input, button {
+    color: #ffe135;
+    background: darkslategray;
+    border-color: darkslategray;
+    margin-right: 5px;
+}
