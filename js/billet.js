@@ -5,6 +5,8 @@ $(function() {
 const genererBillets = function() {
     const valeur = $('#valeur-billets').val()
     if (valeur > 0) {
+    if ($('#valeur-billets').val() > 0) {
+        const valeur = $('#valeur-billets').val().replace(/\B(?=(\d{3})+(?!\d))/g, "'")
         const modele = $('#modele-billet')
         const parent = modele.parent()
         modele.detach()
