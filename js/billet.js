@@ -3,8 +3,9 @@ $(function() {
     $('#generer-billets').click(genererBillets)
 })
 const genererBillets = function() {
-    if ($('#valeur-billets').val() > 0) {
-        const valeur = $('#valeur-billets').val().replace(/\B(?=(\d{3})+(?!\d))/g, "'")
+    if ($('#valeur-billets').val() >= 0) {
+        const valeurNumerique = parseInt($('#valeur-billets').val()).toString()
+        const valeur = valeurNumerique == 0 ? '_____' : valeurNumerique.replace(/\B(?=(\d{3})+(?!\d))/g, "'")
         const modele = $('#modele-billet')
         const parent = modele.parent()
         $('.billet').not('#modele-billet').remove()
