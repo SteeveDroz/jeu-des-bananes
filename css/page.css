@@ -44,7 +44,7 @@ menu a {
     border-radius: 10px 10px 0 0;
 }
 
-menu a:hover {
+menu a:hover, menu a.selected {
     background: darkslategray;
     color: #ffe135;
     transition: 0.3s;
