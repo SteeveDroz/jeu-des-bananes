@@ -15,6 +15,16 @@ body {
     text-align: justify;
 }
 
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
     width: inherit;
     height: 100px;
@@ -48,6 +58,7 @@ menu a:hover, menu a.selected {
     background: darkslategray;
     color: #ffe135;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 article {
